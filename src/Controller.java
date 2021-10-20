@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
     public ListaDoble<Cultura> culturaListaDoble = new ListaDoble<>();
+
     String readFile(String file) throws IOException {
         String text;
         StringBuilder content = new StringBuilder();

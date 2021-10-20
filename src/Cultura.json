@@ -38,25 +38,115 @@
     ]
   },
   {
-    "nombre": "asdasd",
-    "area": "asdf",
-    "ciudad": "1233",
-    "periodo": "1800 - 1900",
+    "nombre": "Olmeca",
+    "area": "Estados de Tabasco y Veracruz",
+    "ciudad": "San Lorenzo",
+    "periodo": "1200 a.C. - 400 a.C",
     "dioses" : [
       {
-        "nombre": "123",
-        "representacion": "123123 de t12odo",
-        "templo": "12546"
+        "nombre": "El Dragón Olmeca",
+        "representacion": "La Tierra o al menos el plano en el que vivían los humanos",
+        "templo": "Templo de El Dragón Olmeca"
       },
       {
-        "nombre": "3463463",
-        "representacion": "padre de esta",
-        "templo": "xd"
+        "nombre": "El Monstruo Pájaro",
+        "representacion": "Representaba los cielos, el sol, el gobierno y la agricultura",
+        "templo": "Templo de El Monstruo Pájaro"
       },
       {
-        "nombre": "364346346",
-        "representacion": "padre a aas",
-        "templo": "asdq12"
+        "nombre": "El Monstruo Pez",
+        "representacion": "Representa el inframundo",
+        "templo": "En tallas de Piedra"
+      },
+      {
+        "nombre": "El Dios de los ojos anillados",
+        "representacion": "Poco se sabe sobre el misterioso Dios de ojos anillados",
+        "templo": "Estatua Olmeca"
+      },
+      {
+        "nombre": "El Dios del Maíz",
+        "representacion": "Dios de la Produccion",
+        "templo": "Templo del Dios del Maiz"
+      },
+      {
+        "nombre": "El Dios del Agua",
+        "representacion": "El dominio del Dios del Agua, los ríos, lagos y otras fuentes de agua",
+        "templo": "Esculturas y Figurillas"
+      },
+      {
+        "nombre": "El Were-Jaguar",
+        "representacion": "Desconocido",
+        "templo": "Solo en representaciones"
+      },
+      {
+        "nombre": "la serpiente emplumada",
+        "representacion": "Desconocido",
+        "templo": "Solo en representaciones"
+      }
+    ]
+  },
+  {
+    "nombre": "Zapoteca",
+    "area": "",
+    "ciudad": "",
+    "periodo": "",
+    "dioses" : [
+      {
+        "nombre": "",
+        "representacion": "",
+        "templo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Maya",
+    "area": "",
+    "ciudad": "",
+    "periodo": "",
+    "dioses" : [
+      {
+        "nombre": "",
+        "representacion": "",
+        "templo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Tolteca",
+    "area": "",
+    "ciudad": "",
+    "periodo": "",
+    "dioses" : [
+      {
+        "nombre": "",
+        "representacion": "",
+        "templo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Mixteca",
+    "area": "",
+    "ciudad": "",
+    "periodo": "",
+    "dioses" : [
+      {
+        "nombre": "",
+        "representacion": "",
+        "templo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Mexica",
+    "area": "",
+    "ciudad": "",
+    "periodo": "",
+    "dioses" : [
+      {
+        "nombre": "",
+        "representacion": "",
+        "templo": ""
       }
     ]
   }
