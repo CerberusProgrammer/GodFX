@@ -1,0 +1,63 @@
+[
+  {
+    "nombre": "Teotihuacana",
+    "area": "Central de Mexico",
+    "ciudad": "Teotihuacán",
+    "periodo": "300 d.C - 900 d.C",
+    "dioses" : [
+      {
+        "nombre": "Quetzalcóatl",
+        "representacion": "Dualidad del hombre",
+        "templo": "Templo de Quetzalcoatl"
+      },
+      {
+        "nombre": "Tláloc",
+        "representacion": "Dios de la lluvia",
+        "templo": "Templo de Tláloc"
+      },
+      {
+        "nombre": "Chalchiuhtlicue",
+        "representacion": "Diosa de la fertilidad",
+        "templo": "Pirámide de la Luna"
+      },
+      {
+        "nombre": "Huehuetéotl",
+        "representacion": "Dios del fuego",
+        "templo": "Pirámide del Sol"
+      },
+      {
+        "nombre": "Xipe Tótec",
+        "representacion": "Dios de las cosechas",
+        "templo": "Templo de Xipe Tótec"
+      },
+      {
+        "nombre": "Yacatecuhtli",
+        "representacion": "Dios de los viajeros de negocios y de los comerciantes",
+        "templo": "Templo de Yacatecuhtli"
+      }
+    ]
+  },
+  {
+    "nombre": "asdasd",
+    "area": "asdf",
+    "ciudad": "1233",
+    "periodo": "1800 - 1900",
+    "dioses" : [
+      {
+        "nombre": "123",
+        "representacion": "123123 de t12odo",
+        "templo": "12546"
+      },
+      {
+        "nombre": "3463463",
+        "representacion": "padre de esta",
+        "templo": "xd"
+      },
+      {
+        "nombre": "364346346",
+        "representacion": "padre a aas",
+        "templo": "asdq12"
+      }
+    ]
+  }
+]
