@@ -1,5 +1,12 @@
 import com.google.gson.*;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.geometry.Insets;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.HBox;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,7 +16,26 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
 
-    public ListaDoble<Cultura> culturaListaDoble = new ListaDoble<>();
+    @FXML
+    private TextField fieldPeriodo;
+    @FXML
+    private TextArea fieldRepresentacion;
+    @FXML
+    private TextField fieldCultura;
+    @FXML
+    private ImageView imageDios;
+    @FXML
+    private TextField fieldNombre;
+    @FXML
+    private TextField fieldTemplo;
+    @FXML
+    private TextField fieldCiudad;
+    @FXML
+    private TextField fieldZona;
+    @FXML
+    private TabPane tabPane;
+
+    public ListaCircularDoble<Cultura> culturaListaDoble = new ListaCircularDoble<>();
 
     String readFile(String file) throws IOException {
         String text;
@@ -25,8 +51,14 @@ public class Controller implements Initializable {
         return content.toString();
     }
 
+    void showInfo(Cultura cultura) {
+
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        fieldRepresentacion.setWrapText(true);
+
         try {
             String jsonCultura = readFile("src/Cultura.json");
 
@@ -41,29 +73,64 @@ public class Controller implements Initializable {
                 String ciudad = jsonObject.get("ciudad").getAsString();
                 String periodo = jsonObject.get("periodo").getAsString();
 
+                Tab tab = new Tab(nombre);
+                ScrollPane scrollPane = new ScrollPane();
+                HBox hBox = new HBox();
+                hBox.setPadding(new Insets(10));
+                hBox.setSpacing(10);
+
                 JsonArray jsonArray = jsonObject.get("dioses").getAsJsonArray();
-                ListaDoble<Dios> diosList = new ListaDoble<>();
+
+                ListaCircular<Dios> listaCircular = new ListaCircular<>();
 
                 for (JsonElement jsonElement1 : jsonArray) {
                     JsonObject jsonDioses = jsonElement1.getAsJsonObject();
 
-                    diosList.insertaFin(new Dios(
+                    ImageView imageView = new ImageView(jsonDioses.get("imageView").getAsString());
+                    imageView.setFitWidth(200);
+                    imageView.setFitHeight(150);
+
+                    hBox.getChildren().add(imageView);
+
+                    listaCircular.insertaFinal(new Dios(
                             jsonDioses.get("nombre").getAsString(),
                             jsonDioses.get("representacion").getAsString(),
                             jsonDioses.get("templo").getAsString()
                     ));
+
+                    imageView.setId(listaCircular.getUltimo().getNombre());
+                    Tooltip tooltip = new Tooltip(listaCircular.getUltimo().getNombre());
+                    Tooltip.install(imageView, tooltip);
+
+                    imageView.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
+                        fieldNombre.setText(jsonDioses.get("nombre").getAsString());
+                        fieldRepresentacion.setText(jsonDioses.get("representacion").getAsString());
+                        fieldTemplo.setText(jsonDioses.get("templo").getAsString());
+
+                        fieldCultura.setText(jsonObject.get("nombre").getAsString());
+                        fieldCiudad.setText(jsonObject.get("ciudad").getAsString());
+                        fieldZona.setText(jsonObject.get("area").getAsString());
+                        fieldPeriodo.setText(jsonObject.get("periodo").getAsString());
+
+                        imageDios.setImage(new Image(jsonDioses.get("imageView").getAsString()));
+                    });
                 }
 
-                culturaListaDoble.insertaFin(new Cultura(
+                scrollPane.setContent(hBox);
+                tab.setContent(scrollPane);
+                tabPane.getTabs().add(tab);
+
+                culturaListaDoble.insertaFinal(new Cultura(
                         nombre,
                         area,
                         ciudad,
                         periodo,
-                        diosList
+                        listaCircular
                 ));
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(culturaListaDoble.toString());
     }
 }

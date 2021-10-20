@@ -8,32 +8,38 @@
       {
         "nombre": "Quetzalcóatl",
         "representacion": "Dualidad del hombre",
-        "templo": "Templo de Quetzalcoatl"
+        "templo": "Templo de Quetzalcoatl",
+        "imageView": "https://pueblosoriginarios.com/meso/valle/azteca/dioses/imagenes/quetzalcoatl-magliabechiano.jpg"
       },
       {
         "nombre": "Tláloc",
         "representacion": "Dios de la lluvia",
-        "templo": "Templo de Tláloc"
+        "templo": "Templo de Tláloc",
+        "imageView": "https://www.dondeir.com/wp-content/uploads/2020/04/tlaloc-mascara.jpg"
       },
       {
         "nombre": "Chalchiuhtlicue",
         "representacion": "Diosa de la fertilidad",
-        "templo": "Pirámide de la Luna"
+        "templo": "Pirámide de la Luna",
+        "imageView": "https://mxcity.mx/wp-content/uploads/2020/11/chalchiuhtlicue-2-951x1024.jpg"
       },
       {
         "nombre": "Huehuetéotl",
         "representacion": "Dios del fuego",
-        "templo": "Pirámide del Sol"
+        "templo": "Pirámide del Sol",
+        "imageView": "https://mxcity.mx/wp-content/uploads/2020/02/Xiuhtecuhtli-esp%C3%ADritu-del-fuego-7.jpg"
       },
       {
         "nombre": "Xipe Tótec",
         "representacion": "Dios de las cosechas",
-        "templo": "Templo de Xipe Tótec"
+        "templo": "Templo de Xipe Tótec",
+        "imageView": "https://i.pinimg.com/474x/26/6c/5a/266c5ab978bf2f3a86478b0922ecf3a9.jpg"
       },
       {
         "nombre": "Yacatecuhtli",
         "representacion": "Dios de los viajeros de negocios y de los comerciantes",
-        "templo": "Templo de Yacatecuhtli"
+        "templo": "Templo de Yacatecuhtli",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/d/db/Yacatecuhtli.jpg"
       }
     ]
   },
@@ -46,42 +52,50 @@
       {
         "nombre": "El Dragón Olmeca",
         "representacion": "La Tierra o al menos el plano en el que vivían los humanos",
-        "templo": "Templo de El Dragón Olmeca"
+        "templo": "Templo de El Dragón Olmeca",
+        "imageView": "https://www.mitologia.info/wp-content/uploads/2017/06/dios-drag%C3%B3n.jpg"
       },
       {
         "nombre": "El Monstruo Pájaro",
         "representacion": "Representaba los cielos, el sol, el gobierno y la agricultura",
-        "templo": "Templo de El Monstruo Pájaro"
+        "templo": "Templo de El Monstruo Pájaro",
+        "imageView": "https://cdn.statically.io/img/www.yubrain.com/f=auto/wp-content/uploads/2021/01/dioses-olmecas-696x464.jpg"
       },
       {
         "nombre": "El Monstruo Pez",
         "representacion": "Representa el inframundo",
-        "templo": "En tallas de Piedra"
+        "templo": "En tallas de Piedra",
+        "imageView": "https://arturosiso.com/Arturo-Ignacio-Siso-Sosa/images/Arturo-Ignacio-Sosa263.jpg"
       },
       {
         "nombre": "El Dios de los ojos anillados",
         "representacion": "Poco se sabe sobre el misterioso Dios de ojos anillados",
-        "templo": "Estatua Olmeca"
+        "templo": "Estatua Olmeca",
+        "imageView": "https://1.bp.blogspot.com/-HKlVnczsgio/X8c6Wi99piI/AAAAAAAAIrE/43pgcNgbzf4KJWuY2ojP_VSfS3cqWnOEACLcBGAsYHQ/s1162/APRE214.jpeg"
       },
       {
         "nombre": "El Dios del Maíz",
         "representacion": "Dios de la Produccion",
-        "templo": "Templo del Dios del Maiz"
+        "templo": "Templo del Dios del Maiz",
+        "imageView": "https://www.viajabonito.mx/wp-content/uploads/2021/06/dioses-mayas-12-yum-kaax.jpg"
       },
       {
         "nombre": "El Dios del Agua",
         "representacion": "El dominio del Dios del Agua, los ríos, lagos y otras fuentes de agua",
-        "templo": "Esculturas y Figurillas"
+        "templo": "Esculturas y Figurillas",
+        "imageView": "https://entremitosyleyendas.com/wp-content/uploads/2020/05/DIOSES-OLMECAS-12.jpg"
       },
       {
         "nombre": "El Were-Jaguar",
         "representacion": "Desconocido",
-        "templo": "Solo en representaciones"
+        "templo": "Solo en representaciones",
+        "imageView": "https://i.pinimg.com/originals/f1/db/79/f1db791d7b8dc89e496865e189a862ae.jpg"
       },
       {
-        "nombre": "la serpiente emplumada",
+        "nombre": "La Serpiente Emplumada",
         "representacion": "Desconocido",
-        "templo": "Solo en representaciones"
+        "templo": "Solo en representaciones",
+        "imageView": "https://i.blogs.es/5f5ec6/quetzalcoatl-936621_1920/840_560.jpg"
       }
     ]
   },
@@ -94,7 +108,8 @@
       {
         "nombre": "",
         "representacion": "",
-        "templo": ""
+        "templo": "",
+        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
       }
     ]
   },
@@ -107,7 +122,8 @@
       {
         "nombre": "",
         "representacion": "",
-        "templo": ""
+        "templo": "",
+        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
       }
     ]
   },
@@ -120,7 +136,8 @@
       {
         "nombre": "",
         "representacion": "",
-        "templo": ""
+        "templo": "",
+        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
       }
     ]
   },
@@ -133,7 +150,8 @@
       {
         "nombre": "",
         "representacion": "",
-        "templo": ""
+        "templo": "",
+        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
       }
     ]
   },
@@ -146,7 +164,8 @@
       {
         "nombre": "",
         "representacion": "",
-        "templo": ""
+        "templo": "",
+        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
       }
     ]
   }

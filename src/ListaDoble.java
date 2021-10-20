@@ -55,6 +55,10 @@ public class ListaDoble<T> {
         return nodo.getInfo();
     }
 
+    public T getUltimo() {
+        return null;
+    }
+
     public T eliminaInicio() {
         Nodo<T> nodo = inicio;
 

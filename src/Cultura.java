@@ -4,7 +4,7 @@ public class Cultura {
     private String area;
     private String ciudad;
     private String periodo;
-    private ListaDoble<Dios> dioses;
+    private ListaCircular<Dios> dioses;
 
     public Cultura(String nombre, String area, String ciudad, String periodo) {
         this.nombre = nombre;
@@ -13,7 +13,7 @@ public class Cultura {
         this.periodo = periodo;
     }
 
-    public Cultura(String nombre, String area, String ciudad, String periodo, ListaDoble<Dios> dioses) {
+    public Cultura(String nombre, String area, String ciudad, String periodo, ListaCircular<Dios> dioses) {
         this.nombre = nombre;
         this.area = area;
         this.ciudad = ciudad;
@@ -53,11 +53,11 @@ public class Cultura {
         this.periodo = periodo;
     }
 
-    public ListaDoble<Dios> getDioses() {
+    public ListaCircular<Dios> getDioses() {
         return dioses;
     }
 
-    public void setDioses(ListaDoble<Dios> dioses) {
+    public void setDioses(ListaCircular<Dios> dioses) {
         this.dioses = dioses;
     }
 

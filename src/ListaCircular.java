@@ -1,10 +1,10 @@
-public class ListaCircularDoble<T> {
+public class ListaCircular<T> {
 
     private Nodo<T> inicio;
     private Nodo<T> ultimo;
     private int size;
 
-    public ListaCircularDoble() {
+    public ListaCircular() {
         this.inicio = null;
         this.ultimo = null;
         this.size = -1;
@@ -25,13 +25,10 @@ public class ListaCircularDoble<T> {
         if (inicio == null) {
             inicio = ultimo = nodo;
             nodo.setSig(inicio);
-            nodo.setAnt(inicio);
         } else{
             nodo.setSig(inicio);
-            inicio.setAnt(nodo);
             inicio = nodo;
             ultimo.setSig(inicio);
-            nodo.setAnt(ultimo);
         }
         this.size++;
     }
@@ -43,12 +40,9 @@ public class ListaCircularDoble<T> {
         if (inicio == null) {
             inicio = ultimo = nodo;
             nodo.setSig(inicio);
-            nodo.setAnt(inicio);
         } else {
             nodo.setSig(inicio);
-            inicio.setAnt(nodo);
             ultimo.setSig(nodo);
-            nodo.setAnt(ultimo);
             ultimo = nodo;
         }
         size++;
@@ -65,7 +59,6 @@ public class ListaCircularDoble<T> {
             else {
                 ultimo.setSig(inicio.getSig());
                 inicio = inicio.getSig();
-                inicio.setAnt(ultimo);
             }
         }
         size--;
@@ -82,10 +75,13 @@ public class ListaCircularDoble<T> {
             if (inicio == ultimo)
                 inicio = ultimo = null;
             else {
-                Nodo<T> r = ultimo.getAnt();
-                r.setSig(inicio);
-                inicio.setAnt(r);
+                Nodo<T> r = inicio;
+
+                while (r.getSig() != ultimo)
+                    r = r.getSig();
+
                 ultimo = r;
+                ultimo.setSig(inicio);
             }
         }
         size--;
@@ -100,19 +96,6 @@ public class ListaCircularDoble<T> {
     public T getUltimo() {
         return ultimo.getInfo();
     }
-
-    public T get(int i) {
-        Nodo<T> nodo = inicio;
-        int x = 0;
-
-        while (x != i) {
-            x++;
-            nodo = nodo.getSig();
-        }
-
-        return nodo.getInfo();
-    }
-
 
     public String toString() {
         StringBuilder string = new StringBuilder();

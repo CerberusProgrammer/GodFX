@@ -1,14 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Controller"
-            prefHeight="1280.0" prefWidth="720.0">
-
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Pane layoutY="237.0" prefHeight="473.0" prefWidth="1260.0" style="-fx-background-radius: 5; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0,0,0); -fx-background-color: white;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="237.0">
+         <children>
+            <Label layoutX="648.0" layoutY="24.0" prefHeight="62.0" prefWidth="139.0" text="Cultura">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fieldCultura" editable="false" layoutX="648.0" layoutY="86.0" prefHeight="40.0" prefWidth="217.0" promptText="Nombre de la cultura">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="imageDios" fitHeight="200.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" />
+            <TextField fx:id="fieldZona" editable="false" layoutX="648.0" layoutY="212.0" prefHeight="40.0" prefWidth="217.0" promptText="Zona de la cultura">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="648.0" layoutY="150.0" prefHeight="62.0" prefWidth="139.0" text="Zona">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="961.0" layoutY="24.0" prefHeight="62.0" prefWidth="139.0" text="Ciudad">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fieldCiudad" editable="false" layoutX="961.0" layoutY="86.0" prefHeight="40.0" prefWidth="217.0" promptText="Ciudad actual">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fieldPeriodo" editable="false" layoutX="961.0" layoutY="212.0" prefHeight="40.0" prefWidth="217.0" promptText="Tiempo de existencia">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="961.0" layoutY="150.0" prefHeight="62.0" prefWidth="200.0" text="Periodo">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="275.0" layoutY="140.0" prefHeight="62.0" prefWidth="217.0" text="Representacion">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fieldNombre" editable="false" layoutX="275.0" layoutY="76.0" prefHeight="40.0" prefWidth="217.0" promptText="Nombre del Dios">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="275.0" layoutY="14.0" prefHeight="62.0" prefWidth="217.0" text="Nombre">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fieldTemplo" editable="false" layoutX="275.0" layoutY="341.0" prefHeight="40.0" prefWidth="217.0" promptText="Representacion visual">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="275.0" layoutY="279.0" prefHeight="62.0" prefWidth="217.0" text="Templo">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="fieldRepresentacion" layoutX="275.0" layoutY="197.0" prefHeight="84.0" prefWidth="217.0" promptText="Significado del Dios">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextArea>
+            <Separator layoutX="531.0" layoutY="27.0" orientation="VERTICAL" prefHeight="405.0" prefWidth="68.0" />
+         </children>
+      </Pane>
+      <TabPane fx:id="tabPane" prefHeight="211.0" prefWidth="1280.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="510.0" />
+   </children>
 </AnchorPane>
