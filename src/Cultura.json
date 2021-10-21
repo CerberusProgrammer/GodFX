@@ -101,71 +101,233 @@
   },
   {
     "nombre": "Zapoteca",
-    "area": "",
-    "ciudad": "",
-    "periodo": "",
+    "area": "Sur de Oaxaca",
+    "ciudad": "Mitla",
+    "periodo": "500 a.C. - 900 d.C",
     "dioses" : [
       {
-        "nombre": "",
-        "representacion": "",
-        "templo": "",
-        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
+        "nombre": "Xipe Tótec",
+        "representacion": "Dios principal de los zapotecas. Representaba la vida, la muerte y las resurección",
+        "templo": "Templo de Xipe Tótec",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/7/76/CodexBorbonicus.JPG"
+      },
+      {
+        "nombre": "Pitao Cozobi",
+        "representacion": "Dios del maíz y de la agricultura",
+        "templo": "Templo de Pitao Cozobi",
+        "imageView": "https://pueblosoriginarios.com/meso/oaxaca/zapoteca/imagenes/cozobi.jpg"
+      },
+      {
+        "nombre": "Pitao Cocijo",
+        "representacion": "El dios de las tormentas, la lluvia y los truenos",
+        "templo": "Figuras de Pitao Cocijo",
+        "imageView": "https://i.pinimg.com/originals/f3/0c/ac/f30cac3b3d48489122b17f875faa0610.jpg"
+      },
+      {
+        "nombre": "Coqui Bezelao",
+        "representacion": "Dios que representa el más allá",
+        "templo": "Templo de Pitao Cocijo",
+        "imageView": "https://pueblosoriginarios.com/meso/oaxaca/zapoteca/imagenes/bezelao.jpg"
+      },
+      {
+        "nombre": "Pitao Cozana",
+        "representacion": "Dios de los antepasados, siendo el que defendía la alma de estos en el más allá.",
+        "templo": "Corazon del Monte",
+        "imageView": "http://1.bp.blogspot.com/_7mLfBHVtlPo/TI7je_FhVoI/AAAAAAAAAI0/HVt3K7XME9c/s1600/3395537711_c3027f675d.jpg"
+      },
+      {
+        "nombre": "Quetzalcóatl",
+        "representacion": "Deidad del viento de los zapotecas",
+        "templo": "Templo de Quetzalcóatl",
+        "imageView": "http://3.bp.blogspot.com/-gKgbVPpwLnQ/U4hkTtgjrGI/AAAAAAAAGaQ/0m8KIjXMj_0/s1600/Mexico_-_Museo_de_antropologia_-_T%C3%AAte_de_Quetzalc%C3%B3atl.JPG"
+      },
+      {
+        "nombre": "Chilaila Gobitza",
+        "representacion": "Dios de la naturaleza y los fenomenos naturales",
+        "templo": "Figuras de Chilaila Gobitza",
+        "imageView": "http://3.bp.blogspot.com/_EhjM7KFqQQE/TLiAWkav11I/AAAAAAAAAA8/6I65inlovY0/s1600/z8.JPG"
+      },
+      {
+        "nombre": "Pitao Peze",
+        "representacion": "Dios de el comercio y la riqueza",
+        "templo": "Figuras de Pitao Peze",
+        "imageView": "https://pueblosoriginarios.com/meso/oaxaca/zapoteca/imagenes/cocijo3.jpg"
       }
     ]
   },
   {
     "nombre": "Maya",
-    "area": "",
-    "ciudad": "",
-    "periodo": "",
+    "area": "Mexico Sur",
+    "ciudad": "Calakmul",
+    "periodo": "2000 a.C. - 250 d.C",
     "dioses" : [
       {
-        "nombre": "",
-        "representacion": "",
-        "templo": "",
-        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
+        "nombre": "Ah Mun",
+        "representacion": "Dios del maíz",
+        "templo": "Templo de las Siete Muñecas",
+        "imageView": "https://fastly.4sqi.net/img/general/600x600/33218243_R6EqxuXmGBDd_fSeiOub4TvKLSf2t4fhmA3MKC0vnTE.jpg"
+      },
+      {
+        "nombre": "Ahau Kin",
+        "representacion": "Dios del Sol",
+        "templo": "Templo del Sol",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/0/05/God_G_Kinich_Ahau_2.jpg"
+      },
+      {
+        "nombre": "Ah Muzenkab",
+        "representacion": "Dios de las abejas y la miel",
+        "templo": "Templo del Sol",
+        "imageView": "https://www.mitologia.info/wp-content/uploads/2017/12/Ah-Muzenkab.jpg"
+      },
+      {
+        "nombre": "Bolon Dzacab",
+        "representacion": "Dios relacionado con los linajes reales",
+        "templo": "Templo de las Siete Muñecas",
+        "imageView": "https://pueblosoriginarios.com/meso/maya/maya/imagenes/kawiil2.jpg"
+      },
+      {
+        "nombre": "Buluc Chabtan",
+        "representacion": "Dios de la guerra y de los sacrificios humanos",
+        "templo": "Templo de las Siete Muñecas",
+        "imageView": "https://pueblosoriginarios.com/meso/maya/maya/imagenes/buluc2.jpg"
+      },
+      {
+        "nombre": "Chac",
+        "representacion": "Dios de la lluvia",
+        "templo": "Templo del Sol",
+        "imageView": "https://pueblosoriginarios.com/meso/maya/maya/imagenes/chaac.jpg"
+      },
+      {
+        "nombre": "Ek Chuach",
+        "representacion": "Dios de los mercados",
+        "templo": "Templo de la Luna",
+        "imageView": "https://www.mitologia.info/wp-content/uploads/2017/11/ek-chua-dios-de-la-guerra.jpg"
+      },
+      {
+        "nombre": "Itzamná",
+        "representacion": "Dios del cielo",
+        "templo": "Templo del Sol",
+        "imageView": "https://diosesmayas.com/wp-content/uploads/2020/10/itzamna.jpg"
+      },
+      {
+        "nombre": "Ix Chel",
+        "representacion": "Diosa de la luna",
+        "templo": "Templo de la Luna",
+        "imageView": "https://i.pinimg.com/originals/b6/1d/76/b61d7636fd2b9d643ff3a267b9ec49f5.jpg"
       }
     ]
   },
   {
     "nombre": "Tolteca",
-    "area": "",
-    "ciudad": "",
-    "periodo": "",
+    "area": "Meseta Central",
+    "ciudad": "Tollan-Xicocotitlan",
+    "periodo": "900 d. C. - 1150 d. C.",
     "dioses" : [
       {
-        "nombre": "",
-        "representacion": "",
-        "templo": "",
-        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
+        "nombre": "Tezcatlipoca",
+        "representacion": "Dios de la providencia, de lo invisible y de la oscuridad",
+        "templo": "Templo Mayor de Tenochtitlán",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Black_Tezcatlipoca.jpg/300px-Black_Tezcatlipoca.jpg"
+      },
+      {
+        "nombre": "Quetzalcóatl",
+        "representacion": "El Dios mas poderoso, dualidad del hombre",
+        "templo": "La Serpiente Emplumada",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Quetzalcoatl.svg/250px-Quetzalcoatl.svg.png"
+      },
+      {
+        "nombre": "Tláloc",
+        "representacion": "Dios de la lluvia",
+        "templo": "Templo Mayor de Tenochtitlan",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tlaloc_glyph.svg/250px-Tlaloc_glyph.svg.png"
+      },
+      {
+        "nombre": "Cintéotl",
+        "representacion": "Dios del maíz y el patrón de la ebriedad y la bebida en los rituales",
+        "templo": "Templo de Chicomecóatl",
+        "imageView": "https://c8.alamy.com/compes/w3gy9w/cinteotl-2-w3gy9w.jpg"
+      },
+      {
+        "nombre": "Itztlacoliuhqui",
+        "representacion": "Personificación de la justicia, además de ser el dios de la obsidiana, señor del sacrificio, de los desastres y de los objetos con forma de cuchillos, y se relaciona especialmente con las heladas o las bajas temperaturas",
+        "templo": "Recreaciones",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Itzlacoliuhque.jpg/220px-Itzlacoliuhque.jpg"
       }
     ]
   },
   {
     "nombre": "Mixteca",
-    "area": "",
-    "ciudad": "",
-    "periodo": "",
+    "area": "Oaxaca",
+    "ciudad": "Monte Albán",
+    "periodo": "900 a.C. - 1523 d.C.",
     "dioses" : [
       {
-        "nombre": "",
-        "representacion": "",
-        "templo": "",
-        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
+        "nombre": "Dzahui",
+        "representacion": "Dios de la lluvia",
+        "templo": "Templo Penate",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/1/19/Dzahui.jpg"
+      },
+      {
+        "nombre": "Cohuy",
+        "representacion": "Dios del maíz, alimento sagrado para ellos, y protector de las cosechas de los mixtecos",
+        "templo": "Templo del Sagrado",
+        "imageView": "https://fastly.4sqi.net/img/general/600x600/33218243_R6EqxuXmGBDd_fSeiOub4TvKLSf2t4fhmA3MKC0vnTE.jpg"
+      },
+      {
+        "nombre": "Huehuetéotl",
+        "representacion": "Dios del Fuego",
+        "templo": "Templo Penate",
+        "imageView": "https://mxcity.mx/wp-content/uploads/2020/02/Xiuhtecuhtli-esp%C3%ADritu-del-fuego-7.jpg"
       }
     ]
   },
   {
     "nombre": "Mexica",
-    "area": "",
-    "ciudad": "",
-    "periodo": "",
+    "area": "Lago Texcoco",
+    "ciudad": "México-Tenochtitlan",
+    "periodo": "1345 d.C. - 1521 d.C.",
     "dioses" : [
       {
-        "nombre": "",
-        "representacion": "",
-        "templo": "",
-        "imageView": "https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg"
+        "nombre": "Ometecuhtli",
+        "representacion": "Dios de la creación",
+        "templo": "Templo Mayor",
+        "imageView": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Omecihuatl-Ometecuhtli_borgia.jpg"
+      },
+      {
+        "nombre": "Huitzilopochtli",
+        "representacion": "Dios de la guerra",
+        "templo": "Templo Mayor",
+        "imageView": "https://i.ytimg.com/vi/gga6F65mhkg/maxresdefault.jpg"
+      },
+      {
+        "nombre": "Quetzalcóatl",
+        "representacion": "Dios del viento",
+        "templo": "Templo de Quetzalcóatl",
+        "imageView": "https://previews.123rf.com/images/sateda/sateda1508/sateda150800023/44054370-vector-de-los-dioses-aztecas-quetzalcoatl-y-mictlantecuhtli-del-manuscrito-antiguo-mesoamericano-c%C3%B3d.jpg"
+      },
+      {
+        "nombre": "Tezcatlipoca",
+        "representacion": "Dios del cielo y de la tierra",
+        "templo": "Templo Mayor",
+        "imageView": "https://cdn1.matadornetwork.com/blogs/2/2019/12/shutterstock_1211759326.jpg"
+      },
+      {
+        "nombre": "Tláloc",
+        "representacion": "Dios de la lluvia",
+        "templo": "Templo Mayor",
+        "imageView": "https://www.karaniart.com.mx/wp-content/uploads/2021/01/Foto-Mas-Mexico.jpg"
+      },
+      {
+        "nombre": "Coatlicue",
+        "representacion": "Diosa de la fertilidad",
+        "templo": "Templo Menor",
+        "imageView": "https://culturizando.com/wp-content/uploads/2020/09/Coatlicue-1.jpg"
+      },
+      {
+        "nombre": "Mictlantecuhtli",
+        "representacion": "Dios de la muerte",
+        "templo": "Templo Menor",
+        "imageView": "https://st3.depositphotos.com/1028735/13083/v/600/depositphotos_130833532-stock-illustration-stylized-skull-pagan-god-of.jpg"
       }
     ]
   }

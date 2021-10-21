@@ -37,24 +37,6 @@ public class Controller implements Initializable {
 
     public ListaCircularDoble<Cultura> culturaListaDoble = new ListaCircularDoble<>();
 
-    String readFile(String file) throws IOException {
-        String text;
-        StringBuilder content = new StringBuilder();
-
-        FileReader fileReader = new FileReader(file);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-
-        while ((text = bufferedReader.readLine()) != null)
-            content.append(text);
-
-        bufferedReader.close();
-        return content.toString();
-    }
-
-    void showInfo(Cultura cultura) {
-
-    }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         fieldRepresentacion.setWrapText(true);
@@ -89,6 +71,8 @@ public class Controller implements Initializable {
                     ImageView imageView = new ImageView(jsonDioses.get("imageView").getAsString());
                     imageView.setFitWidth(200);
                     imageView.setFitHeight(150);
+                    imageView.setStyle("-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0,0,0); " +
+                            "-fx-background-radius: 5;");
 
                     hBox.getChildren().add(imageView);
 
@@ -131,6 +115,19 @@ public class Controller implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(culturaListaDoble.toString());
+    }
+
+    String readFile(String file) throws IOException {
+        String text;
+        StringBuilder content = new StringBuilder();
+
+        FileReader fileReader = new FileReader(file);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+        while ((text = bufferedReader.readLine()) != null)
+            content.append(text);
+
+        bufferedReader.close();
+        return content.toString();
     }
 }
